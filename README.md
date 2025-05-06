@@ -51,7 +51,7 @@ webdriver-manager==4.0.1
    아래 코드 부분의 상품 URL을 원하는 것으로 변경하세요.
 
    ```python
-   driver.get('https://smartstore.naver.com/jayeonzin/products/5975941916')
+   driver.get('URL')
    ```
 
 3. **스크립트 실행**
