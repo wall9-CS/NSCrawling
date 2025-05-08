@@ -22,8 +22,11 @@ options.add_argument("disable-gpu")
 options.add_argument("disable-infobars")
 options.add_argument("--disable-extensions")
 options.add_argument('--no-sandbox') 
+# YW Driver Path
+chrome_driver_path = r"C:\Users\ywj\Desktop\crawling\chromedriver-win64\chromedriver-win64\chromedriver.exe"
 
-chrome_driver_path = r"C:\Users\shcho\Desktop\chromedriver-win64\chromedriver-win64\chromedriver.exe"
+# SH Driver Path
+# chrome_driver_path = r"C:\Users\shcho\Desktop\chromedriver-win64\chromedriver-win64\chromedriver.exe"
 service = Service(executable_path=chrome_driver_path)
 driver = webdriver.Chrome(service = service, options=options)
 # wait seconds...
